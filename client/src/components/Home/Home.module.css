@@ -1,0 +1,67 @@
+.active{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    background-color: darkslategray;
+    width: 80%;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 2px;
+    transition: 1s ease;
+}
+.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: 1s ease;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    background-color: darkslategray;
+    width: 80%;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: 2px
+}
+
+.contenedorSort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.filtrar{
+
+    width: 50%;
+}
+
+.actividades{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.duration{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.dificultad{
+    margin-inline: 30px;
+}

@@ -1,0 +1,7 @@
+.imgland{display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.imgg{
+    width: 50%;
+}

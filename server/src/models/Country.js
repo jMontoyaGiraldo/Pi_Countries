@@ -8,9 +8,9 @@ module.exports = (sequelize) => {
 
     name: { type: DataTypes.STRING(50), allowNull: false},
 
-    imagen_bandera:{ type: DataTypes.STRING, allowNull: false},
+    flag:{ type: DataTypes.STRING, allowNull: false},
 
-    continente:
+    continents:
     {type: DataTypes.STRING,
       // type: DataTypes.ENUM("North America", "Central America", "South America", "Europe", "Asia", "Africa", "Oceania"),
       allowNull: false},
@@ -20,5 +20,5 @@ module.exports = (sequelize) => {
     area: { type: DataTypes.DOUBLE},
 
     population: { type: DataTypes.INTEGER , allowNull:false},
-  });
+  }, { timestamps: false });
 };

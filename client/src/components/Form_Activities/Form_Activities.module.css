@@ -1,0 +1,73 @@
+.FormContainer {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .InputContainer {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    padding: 10px;
+    border: 1px solid #484848;
+    border-radius: 5px;
+    width: min-content;
+  }
+  
+  select {
+    appearance: none;
+    padding: 10px;
+    background-color: rgb(73, 73, 73);
+   
+  }
+  
+  .Error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .SelectedCountries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .SelectedCountries li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .SelectedCountries button {
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .SubmitButton {
+    background-color: #386652;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .SubmitButton:hover {
+    background-color: #2c503f;
+  }
